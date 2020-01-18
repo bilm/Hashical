@@ -1,7 +1,7 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-import Cryptography
+import Hashical
 
 var greeting = "Hello, Compression"
 
