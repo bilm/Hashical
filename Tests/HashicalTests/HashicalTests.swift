@@ -76,4 +76,12 @@ final class HashicalTests: XCTestCase {
 
 	}
 	
+	func testDataString() {
+		
+		let data = Data( "bilm".utf8 )
+		let data2 = Data(hexString: data.hex)
+
+		XCTAssertEqual( data, data2 )
+
+	}
 }
