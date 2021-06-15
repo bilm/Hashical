@@ -1,7 +1,10 @@
 //: Playground - noun: a place where people can play
 
 import UIKit
-import Cryptography
+@testable import Hashical
+
+import CommonCrypto
+
 
 var str = "Hello, Common Crypto"
 

@@ -5,8 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "Hashical",
-	platforms: [ .iOS(.v9), .macOS(.v10_11) ],
-    products: [
+//	platforms: [ .iOS(.v9), .macOS(.v10_11) ],
+	platforms: [ .iOS(.v13), .macOS(.v10_15) ],
+	products: [
         .library(
             name: "Hashical",
             targets: ["Hashical"]),
